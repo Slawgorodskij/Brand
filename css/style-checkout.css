@@ -222,6 +222,7 @@ body {
 }
 
 .menu__link {
+  position: relative;
   margin-right: 40px;
   padding: 15px 0;
   font-weight: 700;
@@ -231,12 +232,34 @@ body {
   transition: all 0.3s linear;
 }
 
+.menu__link_activ::before {
+  content: " ";
+  position: absolute;
+  top: 41px;
+  left: -6px;
+  width: 120%;
+  height: 3px;
+  display: block;
+  background-color: #ef5b70;
+}
+
 .menu__link:last-child {
   margin-right: 0;
 }
 
 .menu__link:hover {
   color: #f16d7f;
+}
+
+.menu__link:hover::before {
+  content: " ";
+  position: absolute;
+  top: 41px;
+  left: -6px;
+  width: 120%;
+  height: 3px;
+  display: block;
+  background-color: #ef5b70;
 }
 
 /*====introduction====*/
