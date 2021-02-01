@@ -350,6 +350,8 @@ body {
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-top: 7px solid #6f6e6e;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .group__category {
@@ -367,7 +369,12 @@ body {
 }
 
 .sidebar__group[open] .group-names__triangle {
-  border-top: 7px solid #ef5b70;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 7px solid #ef5b70;
+  border-top: none;
 }
 
 /*--------------------*/
