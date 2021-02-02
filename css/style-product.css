@@ -682,7 +682,7 @@ body {
   color: #ffffff;
 }
 
-.product-item:hover .product-item__photo_image {
+.product-items__item:hover .product-item__photo_image {
   z-index: -1;
 }
 

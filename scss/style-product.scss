@@ -469,6 +469,7 @@ body {
 }
 .product-item__hover {
     position: absolute;
+
     width: 100%;
     top: 0;
     bottom: 0;
@@ -511,7 +512,7 @@ body {
     font-weight: 700;
     color: #ffffff;
 }
-.product-item:hover .product-item__photo_image {
+.product-items__item:hover .product-item__photo_image {
     z-index: -1;
 }
 .product-item__text {
