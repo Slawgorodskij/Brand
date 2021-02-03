@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAND</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style-checkout-new.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-inner container">
+            <a href="#" class="header-inner__logo header-inner__logo_mr-30">
+                <img src="image/header/logo.jpg" alt="logo" />
+                <span class="header-inner__word">Bran<span class="header-inner__word_color">d</span></span>
+            </a>
+
+            <form class="header-inner__form header-form" action="#">
+                <button class="header-form__button">
+                    <span class="header-form__button-text_mr-5">Browse</span>
+                    <span class="header-form__triangle_view"></span>
+                </button>
+                <input class="header-form__input" type="text" placeholder="Search for Item..." />
+                <button class="header-form__button_search">
+                    <svg class="header-form__icon-search" viewBox="0 0 27 28">
+                        <path
+                            d="M19.0596 17.6259C20.6713 15.8658 21.6282 13.6048 21.7698 11.2225C21.9113 8.84018 21.2288 6.48173 19.8369 4.54318C18.445 2.60463 16.4285 1.20404 14.126 0.576619C11.8234 -0.0508009 9.3751 0.13316 7.19217 1.09761C5.00923 2.06205 3.22463 3.74825 2.13804 5.87302C1.05145 7.9978 0.729054 10.4318 1.225 12.7661C1.72094 15.1005 3.00501 17.1932 4.86158 18.6927C6.71814 20.1922 9.03413 21.0072 11.4206 21.0009C13.673 21.004 15.8645 20.27 17.6606 18.9109L25.4086 26.7179C25.4941 26.807 25.5965 26.8781 25.7099 26.927C25.8232 26.9759 25.9452 27.0017 26.0686 27.0029C26.1923 27.0033 26.3148 26.9782 26.4283 26.9292C26.5419 26.8801 26.6441 26.8082 26.7286 26.7179C26.9025 26.537 26.9997 26.2958 26.9997 26.0449C26.9997 25.794 26.9025 25.5528 26.7286 25.3719L19.0596 17.6259ZM2.88662 10.5009C2.89946 8.81563 3.41094 7.17187 4.35659 5.77685C5.30224 4.38183 6.63972 3.29801 8.20044 2.662C9.76115 2.02599 11.4752 1.86627 13.1266 2.20298C14.7779 2.53969 16.2926 3.35775 17.4797 4.55404C18.6668 5.75033 19.4732 7.27129 19.7972 8.92519C20.1212 10.5791 19.9483 12.2919 19.3002 13.8476C18.6522 15.4034 17.5581 16.7325 16.1559 17.6674C14.7536 18.6023 13.1059 19.1011 11.4206 19.1009C9.14916 19.0901 6.97482 18.1784 5.37484 16.566C3.77486 14.9537 2.87998 12.7724 2.88662 10.5009Z" />
+                    </svg>
+                </button>
+            </form>
+
+            <div class="header-inner__controls header-controls">
+                <button class="header-controls__button_cart">
+                    <img class="header-controls__icon-cart" src="image/header/cart.svg" alt="cart" />
+                </button>
+                <button class="header-controls__button_account">
+                    <span class="header-controls__button-text">My Account</span>
+                    <span class="header-controls__triangle"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+    <nav class="menu">
+        <a class="menu__link" href="index.html">Home</a>
+        <a class="menu__link" href="product-new.html">Man</a>
+        <a class="menu__link menu__link_activ" href="#">Women</a>
+        <a class="menu__link" href="#">Kids</a>
+        <a class="menu__link" href="#">Accoseriese</a>
+        <a class="menu__link" href="#">Featured</a>
+        <a class="menu__link" href="#">Hot Deals</a>
+    </nav>
+
+
+    <section class="introduction">
+        <div class="introduction__item container">
+            <h1 class="introduction__title">New Arrivals</h1>
+            <p class="introduction__address">Home / Men /
+                <span class="introduction__address_color">New Arrivals</span>
+            </p>
+        </div>
+    </section>
+
+
+    <main class="main container">
+
+        <div class="checkout">
+            <input class="checkout__toggle" type="checkbox" id="shipping-adress">
+            <label for="shipping-adress" class="checkout__name">
+                <span class="checkout__name-text"> <span class="checkout__name-text_mr-10">01.</span>Shipping
+                    Adress
+                </span>
+            </label>
+            <form class="checkout__main" action="#">
+                <fieldset class="checkout-main__item checkout-main__registrer">
+                    <legend class="checkout-main__title">Check as a guest or register</legend>
+                    <span class="checkout-main__subtitle">Register with us for future convenience</span>
+                    <label class="checkout-main__btn"><input class="checkout-main__btn_mr-12" name="registrer"
+                            type="radio"><span class="checkout-main__btn_text">checkout as
+                            guest</span></label>
+                    <label class="checkout-main__btn"><input class="checkout-main__btn_mr-12" name="registrer"
+                            type="radio" checked><span class="checkout-main__btn_text">register</span></label>
+                    <h2 class="checkout-main__title checkout-main__title_pt-15">register and save time!</h2>
+                    <span class="checkout-main__subtitle">Register with us for future convenience</span>
+                    <p class="checkout-main__transition">
+                        <svg class="checkout-main__transition_icon" viewBox="0 0 512.828 512.828">
+                            <g>
+                                <path
+                                    d="M33.105,473.415L0,428.339l234.096-171.928L0,84.49l33.104-45.077l264.785,194.459
+                                        c7.174,5.269,11.411,13.638,11.411,22.539c0,8.9-4.237,17.27-11.411,22.538L33.105,473.415z" />
+                            </g>
+                            <g>
+                                <path
+                                    d="M236.635,473.415l-33.105-45.076l234.094-171.928L203.53,84.49l33.104-45.077l264.783,194.459
+                                        c7.174,5.268,11.411,13.637,11.411,22.538c0,8.899-4.237,17.271-11.411,22.538L236.635,473.415z" />
+                            </g>
+                        </svg>
+                        <span>Fast and easy checkout</span>
+                    </p>
+                    <p class="checkout-main__transition checkout-main__transition_mb-38">
+                        <svg class="checkout-main__transition_icon" viewBox="0 0 512.828 512.828">
+                            <g>
+                                <path
+                                    d="M33.105,473.415L0,428.339l234.096-171.928L0,84.49l33.104-45.077l264.785,194.459
+                                        c7.174,5.269,11.411,13.638,11.411,22.539c0,8.9-4.237,17.27-11.411,22.538L33.105,473.415z" />
+                            </g>
+                            <g>
+                                <path
+                                    d="M236.635,473.415l-33.105-45.076l234.094-171.928L203.53,84.49l33.104-45.077l264.783,194.459
+                                        c7.174,5.268,11.411,13.637,11.411,22.538c0,8.899-4.237,17.271-11.411,22.538L236.635,473.415z" />
+                            </g>
+                        </svg>
+                        <span>Easy access to your order history and status</span>
+                    </p>
+                    <button class="checkout-main__button">Continue</button>
+                </fieldset>
+
+                <fieldset class="checkout-main__item checkout-main__confirmation">
+                    <legend class="checkout-main__title">Already registed?</legend>
+                    <span class="checkout-main__subtitle">Please log in below</span>
+                    <label class="checkout-main__hint">EMAIL ADDRESS <em
+                            class="checkout-main__hint_color">*</em></label>
+                    <input class="checkout-main__hint_mb-20" name="email" type="email">
+                    <label class="checkout-main__hint">PASSWORD <em class="checkout-main__hint_color">*</em></label>
+                    <input class="checkout-main__hint_mb-20" name="password" type="password">
+                    <span class="checkout-main__warning"><em>*</em>Required Fileds</span>
+                    <div class="checkout-main__bottom">
+                        <button class="checkout-main__button checkout-main__button_mr-30">Log in</button>
+                        <span>Forgot Password ?</span>
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="checkout">
+            <input class="checkout__toggle" type="checkbox" id="billing-information">
+            <label for="billing-information" class="checkout__name">
+                <span class="checkout__name-text"> <span class="checkout__name-text_mr-10">02.</span>BILLING
+                    INFORMATION
+                </span>
+            </label>
+            <div class="checkout__main">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias tenetur facilis non, magni vitae ea
+                laboriosam iure eos asperiores unde ducimus quas magnam doloremque porro sapiente ab rem dolore
+                molestiae!
+            </div>
+        </div>
+
+        <div class="checkout">
+            <input class="checkout__toggle" type="checkbox" id="shipping-information">
+            <label for="shipping-information" class="checkout__name">
+                <span class="checkout__name-text"> <span class="checkout__name-text_mr-10">03.</span>SHIPPING
+                    INFORMATION
+                </span>
+            </label>
+            <div class="checkout__main">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias tenetur facilis non, magni vitae ea
+                laboriosam iure eos asperiores unde ducimus quas magnam doloremque porro sapiente ab rem dolore
+                molestiae!
+            </div>
+        </div>
+
+        <div class="checkout">
+            <input class="checkout__toggle" type="checkbox" id="shipping-method">
+            <label for="shipping-method" class="checkout__name">
+                <span class="checkout__name-text"> <span class="checkout__name-text_mr-10">04.</span>SHIPPING
+                    METHOD
+                </span>
+            </label>
+            <div class="checkout__main">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias tenetur facilis non, magni vitae ea
+                laboriosam iure eos asperiores unde ducimus quas magnam doloremque porro sapiente ab rem dolore
+                molestiae!
+            </div>
+        </div>
+
+        <div class="checkout">
+            <input class="checkout__toggle" type="checkbox" id="payment-method">
+            <label for="payment-method" class="checkout__name">
+                <span class="checkout__name-text"> <span class="checkout__name-text_mr-10">05.</span>PAYMENT
+                    METHOD
+                </span>
+            </label>
+            <div class="checkout__main">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias tenetur facilis non, magni vitae ea
+                laboriosam iure eos asperiores unde ducimus quas magnam doloremque porro sapiente ab rem dolore
+                molestiae!
+            </div>
+        </div>
+
+        <div class="checkout">
+            <input class="checkout__toggle" type="checkbox" id="order-review">
+            <label for="order-review" class="checkout__name">
+                <span class="checkout__name-text"> <span class="checkout__name-text_mr-10">06.</span>ORDER REVIEW
+                </span>
+            </label>
+            <div class="checkout__main">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias tenetur facilis non, magni vitae ea
+                laboriosam iure eos asperiores unde ducimus quas magnam doloremque porro sapiente ab rem dolore
+                molestiae!
+            </div>
+        </div>
+
+    </main>
+
+
+    <section class="reviews">
+        <div class="reviews-columns container">
+            <div class="reviews-columns__column column-comment">
+                <img class="column-comment__photo" src="image/reviews/Intersect.svg" alt="photo" />
+                <div class="column-comment__text">
+                    <span class="column-comment__text_feedback">“Vestibulum quis porttitor dui! Quisque viverra nunc
+                        mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</span>
+                    <span class="column-comment__text_name">Bin Burhan</span>
+                    <span class="column-comment__text_entity"> Dhaka, Bd</span>
+                </div>
+            </div>
+            <div class="reviews-columns__column column-form">
+                <h2 class="column-form__title">SUBSCRIBE</h2>
+                <p class="column-form__subtitle">FOR O UR NEWLETTER AND PROMOTION</p>
+                <form class="column-form__button">
+                    <input class="column-form__button_email" type="email" name="email" placeholder="Enter Your Email"
+                        id="email">
+                    <button class="column-form__button_btn" type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+
+        <div class="footer-columns container">
+
+            <div class="footer-columns__column-logo">
+                <a href="#" class="column-logo__icon">
+                    <img src="image/header/logo.jpg" alt="logo" />
+                    <span class="column-logo__word">Bran<span class="column-logo__word_color">d</span></span>
+                </a>
+                <p class="column-logo__text">
+                    Objectively transition extensive data rather than cross functional solutions. Monotonectally
+                    syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an
+                    expanded array of processes and cross-unit partnerships.
+                </p>
+                <p class="column-logo__text">
+                    Efficiently plagiarize 24/365 action items and focused infomediaries.
+                    Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h2 class="footer-column__title">COMPANY</h2>
+                <ul>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Home</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Shop</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">About</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">How It Works</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 class="footer-column__title">INFORMATION</h2>
+                <ul>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Tearms & Condition</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Privacy Policy</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">How to Buy</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">How to Sell</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link"> Promotion</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h2 class="footer-column__title">SHOP CATEGORY</h2>
+                <ul>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Men</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Women</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Child</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Apparel</a>
+                    </li>
+                    <li class="footer-column__list">
+                        <a href="#" class="footer-column__list-link">Brows All</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom__row container">
+                <p class="footer-bottom__text">© 2021 Brand All Rights Reserved.</p>
+                <div class="footer-bottom__social">
+                    <a href="#" class="social__item">
+                        <svg class="social__icon social__icon_facebook">
+                            <g>
+                                <path
+                                    d="M8.08836 8.28L8.50686 5.61602H5.89022V3.88729C5.89022 3.15847 6.25574 2.44806 7.42765 2.44806H8.61722V0.179975C8.61722 0.179975 7.53772 0 6.50561 0C4.35073 0 2.9422 1.27593 2.9422 3.5857V5.61602H0.546875V8.28H2.9422V14.72H5.89022V8.28H8.08836Z" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon social__icon_twitter">
+                            <g>
+                                <path
+                                    d="M14.417 3.74052C14.427 3.88264 14.427 4.0248 14.427 4.16692C14.427 8.50192 11.1498 13.4969 5.15986 13.4969C3.31448 13.4969 1.60022 12.9588 0.158203 12.0248C0.420396 12.0552 0.67247 12.0654 0.944752 12.0654C2.46741 12.0654 3.8691 11.5476 4.98843 10.6644C3.5565 10.6339 2.3565 9.68977 1.94305 8.39027C2.14475 8.4207 2.34642 8.44102 2.5582 8.44102C2.85063 8.44102 3.14308 8.40039 3.41533 8.32936C1.92291 8.02477 0.803551 6.70498 0.803551 5.11108V5.07048C1.23715 5.31414 1.74139 5.46642 2.2758 5.4867C1.39849 4.89786 0.823727 3.8928 0.823727 2.75573C0.823727 2.14661 0.985041 1.58823 1.26741 1.10092C2.87077 3.09077 5.28086 4.39023 7.98334 4.53239C7.93293 4.28873 7.90266 4.03495 7.90266 3.78114C7.90266 1.97402 9.35477 0.501953 11.1598 0.501953C12.0976 0.501953 12.9446 0.897891 13.5396 1.53748C14.2757 1.39536 14.9816 1.12123 15.6068 0.745609C15.3648 1.50705 14.8505 2.14664 14.1749 2.5527C14.8304 2.48167 15.4657 2.29889 16.0505 2.04511C15.6069 2.69483 15.0522 3.27348 14.417 3.74052Z" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon social__icon_linkedin" viewBox="-21 -35 682.66669 682">
+                            <g>
+                                <path
+                                    d="m77.613281-.667969c-46.929687 0-77.613281 30.816407-77.613281 71.320313 0 39.609375 29.769531 71.304687 75.8125 71.304687h.890625c47.847656 0 77.625-31.695312 77.625-71.304687-.894531-40.503906-29.777344-71.320313-76.714844-71.320313zm0 0" />
+                                <path d="m8.109375 198.3125h137.195313v412.757812h-137.195313zm0 0" />
+                                <path
+                                    d="m482.054688 188.625c-74.011719 0-123.640626 69.546875-123.640626 69.546875v-59.859375h-137.199218v412.757812h137.191406v-230.5c0-12.339843.894531-24.660156 4.519531-33.484374 9.917969-24.640626 32.488281-50.167969 70.390625-50.167969 49.644532 0 69.5 37.851562 69.5 93.339843v220.8125h137.183594v-236.667968c0-126.78125-67.6875-185.777344-157.945312-185.777344zm0 0" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon social__icon_pinterest">
+                            <g>
+                                <path
+                                    d="M6.74032 0.203125C3.55564 0.203125 0.408203 2.34063 0.408203 5.8C0.408203 8 1.63738 9.25 2.38233 9.25C2.68963 9.25 2.86655 8.3875 2.86655 8.14375C2.86655 7.85313 2.13091 7.23438 2.13091 6.025C2.13091 3.5125 4.03055 1.73125 6.4889 1.73125C8.60271 1.73125 10.1671 2.94062 10.1671 5.1625C10.1671 6.82187 9.50597 9.93437 7.36422 9.93437C6.59133 9.93437 5.93018 9.37187 5.93018 8.56563C5.93018 7.38438 6.74963 6.24062 6.74963 5.02187C6.74963 2.95312 3.835 3.32812 3.835 5.82812C3.835 6.35313 3.90018 6.93437 4.13298 7.4125C3.70463 9.26875 2.82931 12.0344 2.82931 13.9469C2.82931 14.5375 2.91311 15.1188 2.96899 15.7094C3.07452 15.8281 3.02175 15.8156 3.18316 15.7563C4.74757 13.6 4.69169 13.1781 5.3994 10.3562C5.78119 11.0875 6.76826 11.4812 7.55046 11.4812C10.8469 11.4812 12.3275 8.24688 12.3275 5.33125C12.3275 2.22813 9.66427 0.203125 6.74032 0.203125Z" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon social__icon_google" viewBox="0 0 315 315">
+                            <g>
+                                <path
+                                    d="M307.5,136.892h-19.791V117.1c0-4.143-3.357-7.5-7.5-7.5h-26.717c-4.143,0-7.5,3.357-7.5,7.5v19.792
+                                    h-19.791c-4.143,0-7.5,3.357-7.5,7.5v26.717c0,4.143,3.357,7.5,7.5,7.5h19.791v19.792c0,4.142,3.357,7.5,7.5,7.5h26.717
+                                    c4.143,0,7.5-3.358,7.5-7.5v-19.792H307.5c4.143,0,7.5-3.357,7.5-7.5v-26.717C315,140.249,311.643,136.892,307.5,136.892z" />
+                                <path
+                                    d="M101.906,104.16c9.088,0,17.823,2.45,25.274,7.087l8.513,5.825c2.967,2.03,6.958,1.671,9.514-0.861
+                                    l24.828-24.596c1.589-1.574,2.392-3.774,2.191-6.001c-0.2-2.227-1.384-4.248-3.228-5.513l-14.43-9.896
+                                    c-0.294-0.201-0.603-0.382-0.922-0.539l-13.979-6.902c-0.185-0.092-0.374-0.176-0.566-0.252
+                                    c-12.042-4.754-24.729-7.165-37.708-7.165c-26.757,0-51.996,10.27-71.068,28.915c-19.367,18.934-30.137,44.681-30.323,72.499
+                                    c-0.187,27.824,10.239,53.72,29.355,72.916c18.968,19.049,45.879,29.975,73.834,29.975c27.658,0,53.608-10.739,71.195-29.463
+                                    c13.931-14.831,22.48-34.641,24.727-57.288c0.021-0.215,0.034-0.43,0.036-0.645l0.26-20.345c0.006-0.421-0.024-0.841-0.09-1.257
+                                    l-1.09-6.953c-0.571-3.649-3.716-6.339-7.409-6.339h-86.672c-4.143,0-7.5,3.358-7.5,7.5v29.982c0,4.142,3.357,7.5,7.5,7.5h44.186
+                                    c-2.025,4.439-5.216,9.12-9.251,13.482c-8.801,9.518-21.926,14.977-36.01,14.977c-14.383,0-28.157-5.636-37.79-15.462
+                                    c-20.052-20.448-19.822-56.077,0.489-76.245C75.334,109.605,88.505,104.16,101.906,104.16z" />
+                            </g>
+                        </svg>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
