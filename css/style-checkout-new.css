@@ -487,9 +487,7 @@ body {
 
 .checkout__main {
   padding: 5px 0 80px 35px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .checkout-main__item {
