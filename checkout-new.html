@@ -23,6 +23,10 @@
                 <span class="header-inner__word">Bran<span class="header-inner__word_color">d</span></span>
             </a>
 
+            <div id="menu--click" class="header__burger">
+                <span></span>
+            </div>
+
             <form class="header-inner__form header-form" action="#">
                 <button class="header-form__button">
                     <span class="header-form__button-text_mr-5">Browse</span>
@@ -59,6 +63,45 @@
         <a class="menu__link" href="#">Featured</a>
         <a class="menu__link" href="#">Hot Deals</a>
     </nav>
+
+    <div id="menu" class="menu-burger">
+        <nav class="menu-burger__nav">
+            <a class="menu-burger__nav-link" href="index.html">Home</a>
+            <a class="menu-burger__nav-link" href="product-new.html">Man</a>
+            <a class="menu-burger__nav-link" href="#">Women</a>
+            <a class="menu-burger__nav-link" href="single-page.html">Kids</a>
+            <a class="menu-burger__nav-link" href="shopping-cart.html">Accoseriese</a>
+            <a class="menu-burger__nav-link" href="#">Featured</a>
+            <a class="menu-burger__nav-link" href="#">Hot Deals</a>
+        </nav>
+        <form class="menu-burger__form" action="#">
+            <button class="header-inner__form-button">
+                <span class="header-inner__form-button-text_mr-5">Browse</span>
+                <span class="header-inner__form-button-triangle_view"></span>
+            </button>
+            <input class="header-inner__form-input" type="text" placeholder="Search for Item..." />
+            <button class="header-inner__form-button_search">
+                <svg class="header-inner__form-button-icon-search" viewBox="0 0 27 28" width="30" height="14">
+                    <path
+                        d="M19.0596 17.6259C20.6713 15.8658 21.6282 13.6048 21.7698 11.2225C21.9113 8.84018 21.2288 6.48173 19.8369 4.54318C18.445 2.60463 16.4285 1.20404 14.126 0.576619C11.8234 -0.0508009 9.3751 0.13316 7.19217 1.09761C5.00923 2.06205 3.22463 3.74825 2.13804 5.87302C1.05145 7.9978 0.729054 10.4318 1.225 12.7661C1.72094 15.1005 3.00501 17.1932 4.86158 18.6927C6.71814 20.1922 9.03413 21.0072 11.4206 21.0009C13.673 21.004 15.8645 20.27 17.6606 18.9109L25.4086 26.7179C25.4941 26.807 25.5965 26.8781 25.7099 26.927C25.8232 26.9759 25.9452 27.0017 26.0686 27.0029C26.1923 27.0033 26.3148 26.9782 26.4283 26.9292C26.5419 26.8801 26.6441 26.8082 26.7286 26.7179C26.9025 26.537 26.9997 26.2958 26.9997 26.0449C26.9997 25.794 26.9025 25.5528 26.7286 25.3719L19.0596 17.6259ZM2.88662 10.5009C2.89946 8.81563 3.41094 7.17187 4.35659 5.77685C5.30224 4.38183 6.63972 3.29801 8.20044 2.662C9.76115 2.02599 11.4752 1.86627 13.1266 2.20298C14.7779 2.53969 16.2926 3.35775 17.4797 4.55404C18.6668 5.75033 19.4732 7.27129 19.7972 8.92519C20.1212 10.5791 19.9483 12.2919 19.3002 13.8476C18.6522 15.4034 17.5581 16.7325 16.1559 17.6674C14.7536 18.6023 13.1059 19.1011 11.4206 19.1009C9.14916 19.0901 6.97482 18.1784 5.37484 16.566C3.77486 14.9537 2.87998 12.7724 2.88662 10.5009Z" />
+                </svg>
+            </button>
+        </form>
+
+        <div class="menu-burger__controls">
+            <button class="header-inner__controls-button_cart">
+                <svg class="header-inner__controls-button-icon-cart" viewBox="0 0 32 29" width="32" height="29">
+                    <path
+                        d="M1.18 2.36L4.58 2.36L9.41 19.82C9.55 20.33 10.02 20.69 10.55 20.69L25.41 20.69C25.88 20.69 26.3 20.41 26.49 19.98L31.9 7.56C32.06 7.19 32.02 6.78 31.8 6.44C31.58 6.11 31.21 5.91 30.81 5.91L14.4 5.91C13.75 5.91 13.22 6.44 13.22 7.09C13.22 7.74 13.75 8.27 14.4 8.27L29 8.27L24.62 18.32L11.44 18.32L6.61 0.87C6.47 0.35 6 0 5.46 0L1.18 0C0.53 0 0 0.53 0 1.18C0 1.83 0.53 2.36 1.18 2.36ZM9.43 29C10.91 29 12.11 27.8 12.11 26.32C12.11 24.84 10.91 23.64 9.43 23.64C7.95 23.64 6.75 24.84 6.75 26.32C6.75 27.8 7.95 29 9.43 29ZM26.2 29C26.26 29 26.34 29 26.39 29C27.11 28.94 27.76 28.63 28.23 28.07C28.7 27.54 28.92 26.85 28.88 26.12C28.78 24.67 27.5 23.54 26.02 23.64C24.54 23.74 23.44 25.04 23.53 26.5C23.63 27.9 24.8 29 26.2 29Z" />
+                </svg>
+            </button>
+            <button class="header-inner__controls-button_account">
+                <span class="header-inner__controls-button-text">My Account</span>
+                <span class="header-inner__controls-button-triangle"></span>
+            </button>
+        </div>
+    </div>
+
 
 
     <section class="introduction">
@@ -137,8 +180,6 @@
                         <button class="checkout-main__button checkout-main__button_mr-30">Log in</button>
                         <span>Forgot Password ?</span>
                     </div>
-
-
                 </fieldset>
             </form>
         </div>
@@ -217,23 +258,24 @@
 
     <section class="reviews">
         <div class="reviews-columns container">
-            <div class="reviews-columns__column column-comment">
-                <img class="column-comment__photo" src="image/reviews/Intersect.svg" alt="photo" />
-                <div class="column-comment__text">
-                    <span class="column-comment__text_feedback">“Vestibulum quis porttitor dui! Quisque viverra nunc
+            <div class="reviews-columns__column reviews-columns__column-comment">
+                <img class="reviews-columns__column-comment-photo" src="image/reviews/Intersect.svg" alt="photo" />
+                <div class="reviews-columns__column-comment-text">
+                    <span class="reviews-columns__column-comment-text_feedback">“Vestibulum quis porttitor dui! Quisque
+                        viverra nunc
                         mi,
                         a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</span>
-                    <span class="column-comment__text_name">Bin Burhan</span>
-                    <span class="column-comment__text_entity"> Dhaka, Bd</span>
+                    <span class="reviews-columns__column-comment-text_name">Bin Burhan</span>
+                    <span class="reviews-columns__column-comment-text_entity"> Dhaka, Bd</span>
                 </div>
             </div>
-            <div class="reviews-columns__column column-form">
-                <h2 class="column-form__title">SUBSCRIBE</h2>
-                <p class="column-form__subtitle">FOR O UR NEWLETTER AND PROMOTION</p>
-                <form class="column-form__button">
-                    <input class="column-form__button_email" type="email" name="email" placeholder="Enter Your Email"
-                        id="email">
-                    <button class="column-form__button_btn" type="submit">Subscribe</button>
+            <div class="reviews-columns__column reviews-columns__column-form">
+                <h2 class="reviews-columns__column-form-title">SUBSCRIBE</h2>
+                <p class="reviews-columns__column-form-subtitle">FOR O UR NEWLETTER AND PROMOTION</p>
+                <form class="reviews-columns__column-form-button">
+                    <input class="reviews-columns__column-form-button_email" type="email" name="email"
+                        placeholder="Enter Your Email" id="email">
+                    <button class="reviews-columns__column-form-button_btn" type="submit">Subscribe</button>
                 </form>
             </div>
         </div>
@@ -327,7 +369,7 @@
                 <p class="footer-bottom__text">© 2021 Brand All Rights Reserved.</p>
                 <div class="footer-bottom__social">
                     <a href="#" class="social__item">
-                        <svg class="social__icon social__icon_facebook">
+                        <svg class="social__icon social__icon_facebook" width="8" height="15">
                             <g>
                                 <path
                                     d="M8.08836 8.28L8.50686 5.61602H5.89022V3.88729C5.89022 3.15847 6.25574 2.44806 7.42765 2.44806H8.61722V0.179975C8.61722 0.179975 7.53772 0 6.50561 0C4.35073 0 2.9422 1.27593 2.9422 3.5857V5.61602H0.546875V8.28H2.9422V14.72H5.89022V8.28H8.08836Z" />
@@ -335,7 +377,7 @@
                         </svg>
                     </a>
                     <a href="#" class="social__item">
-                        <svg class="social__icon social__icon_twitter">
+                        <svg class="social__icon social__icon_twitter" width="16" height="13">
                             <g>
                                 <path
                                     d="M14.417 3.74052C14.427 3.88264 14.427 4.0248 14.427 4.16692C14.427 8.50192 11.1498 13.4969 5.15986 13.4969C3.31448 13.4969 1.60022 12.9588 0.158203 12.0248C0.420396 12.0552 0.67247 12.0654 0.944752 12.0654C2.46741 12.0654 3.8691 11.5476 4.98843 10.6644C3.5565 10.6339 2.3565 9.68977 1.94305 8.39027C2.14475 8.4207 2.34642 8.44102 2.5582 8.44102C2.85063 8.44102 3.14308 8.40039 3.41533 8.32936C1.92291 8.02477 0.803551 6.70498 0.803551 5.11108V5.07048C1.23715 5.31414 1.74139 5.46642 2.2758 5.4867C1.39849 4.89786 0.823727 3.8928 0.823727 2.75573C0.823727 2.14661 0.985041 1.58823 1.26741 1.10092C2.87077 3.09077 5.28086 4.39023 7.98334 4.53239C7.93293 4.28873 7.90266 4.03495 7.90266 3.78114C7.90266 1.97402 9.35477 0.501953 11.1598 0.501953C12.0976 0.501953 12.9446 0.897891 13.5396 1.53748C14.2757 1.39536 14.9816 1.12123 15.6068 0.745609C15.3648 1.50705 14.8505 2.14664 14.1749 2.5527C14.8304 2.48167 15.4657 2.29889 16.0505 2.04511C15.6069 2.69483 15.0522 3.27348 14.417 3.74052Z" />
@@ -343,7 +385,8 @@
                         </svg>
                     </a>
                     <a href="#" class="social__item">
-                        <svg class="social__icon social__icon_linkedin" viewBox="-21 -35 682.66669 682">
+                        <svg class="social__icon social__icon_linkedin" viewBox="-21 -35 682.66669 682" width="15"
+                            height="15">
                             <g>
                                 <path
                                     d="m77.613281-.667969c-46.929687 0-77.613281 30.816407-77.613281 71.320313 0 39.609375 29.769531 71.304687 75.8125 71.304687h.890625c47.847656 0 77.625-31.695312 77.625-71.304687-.894531-40.503906-29.777344-71.320313-76.714844-71.320313zm0 0" />
@@ -354,7 +397,7 @@
                         </svg>
                     </a>
                     <a href="#" class="social__item">
-                        <svg class="social__icon social__icon_pinterest">
+                        <svg class="social__icon social__icon_pinterest" width="12" height="15">
                             <g>
                                 <path
                                     d="M6.74032 0.203125C3.55564 0.203125 0.408203 2.34063 0.408203 5.8C0.408203 8 1.63738 9.25 2.38233 9.25C2.68963 9.25 2.86655 8.3875 2.86655 8.14375C2.86655 7.85313 2.13091 7.23438 2.13091 6.025C2.13091 3.5125 4.03055 1.73125 6.4889 1.73125C8.60271 1.73125 10.1671 2.94062 10.1671 5.1625C10.1671 6.82187 9.50597 9.93437 7.36422 9.93437C6.59133 9.93437 5.93018 9.37187 5.93018 8.56563C5.93018 7.38438 6.74963 6.24062 6.74963 5.02187C6.74963 2.95312 3.835 3.32812 3.835 5.82812C3.835 6.35313 3.90018 6.93437 4.13298 7.4125C3.70463 9.26875 2.82931 12.0344 2.82931 13.9469C2.82931 14.5375 2.91311 15.1188 2.96899 15.7094C3.07452 15.8281 3.02175 15.8156 3.18316 15.7563C4.74757 13.6 4.69169 13.1781 5.3994 10.3562C5.78119 11.0875 6.76826 11.4812 7.55046 11.4812C10.8469 11.4812 12.3275 8.24688 12.3275 5.33125C12.3275 2.22813 9.66427 0.203125 6.74032 0.203125Z" />
@@ -362,7 +405,7 @@
                         </svg>
                     </a>
                     <a href="#" class="social__item">
-                        <svg class="social__icon social__icon_google" viewBox="0 0 315 315">
+                        <svg class="social__icon social__icon_google" viewBox="0 0 315 315" width="25" height="16">
                             <g>
                                 <path
                                     d="M307.5,136.892h-19.791V117.1c0-4.143-3.357-7.5-7.5-7.5h-26.717c-4.143,0-7.5,3.357-7.5,7.5v19.792
@@ -386,7 +429,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>

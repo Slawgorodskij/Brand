@@ -23,6 +23,10 @@
                 <span class="header-inner__word">Bran<span class="header-inner__word_color">d</span></span>
             </a>
 
+            <div id="menu--click" class="header__burger">
+                <span></span>
+            </div>
+
             <form class="header-inner__form" action="#">
                 <button class="header-inner__form-button">
                     <span class="header-inner__form-button-text_mr-5">Browse</span>
@@ -64,6 +68,44 @@
     </nav>
 
 
+    <div id="menu" class="menu-burger">
+        <nav class="menu-burger__nav">
+            <a class="menu-burger__nav-link" href="index.html">Home</a>
+            <a class="menu-burger__nav-link" href="product-new.html">Man</a>
+            <a class="menu-burger__nav-link" href="checkout-new.html">Women</a>
+            <a class="menu-burger__nav-link" href="single-page.html">Kids</a>
+            <a class="menu-burger__nav-link" href="#">Accoseriese</a>
+            <a class="menu-burger__nav-link" href="#">Featured</a>
+            <a class="menu-burger__nav-link" href="#">Hot Deals</a>
+        </nav>
+        <form class="menu-burger__form" action="#">
+            <button class="header-inner__form-button">
+                <span class="header-inner__form-button-text_mr-5">Browse</span>
+                <span class="header-inner__form-button-triangle_view"></span>
+            </button>
+            <input class="header-inner__form-input" type="text" placeholder="Search for Item..." />
+            <button class="header-inner__form-button_search">
+                <svg class="header-inner__form-button-icon-search" viewBox="0 0 27 28" width="30" height="14">
+                    <path
+                        d="M19.0596 17.6259C20.6713 15.8658 21.6282 13.6048 21.7698 11.2225C21.9113 8.84018 21.2288 6.48173 19.8369 4.54318C18.445 2.60463 16.4285 1.20404 14.126 0.576619C11.8234 -0.0508009 9.3751 0.13316 7.19217 1.09761C5.00923 2.06205 3.22463 3.74825 2.13804 5.87302C1.05145 7.9978 0.729054 10.4318 1.225 12.7661C1.72094 15.1005 3.00501 17.1932 4.86158 18.6927C6.71814 20.1922 9.03413 21.0072 11.4206 21.0009C13.673 21.004 15.8645 20.27 17.6606 18.9109L25.4086 26.7179C25.4941 26.807 25.5965 26.8781 25.7099 26.927C25.8232 26.9759 25.9452 27.0017 26.0686 27.0029C26.1923 27.0033 26.3148 26.9782 26.4283 26.9292C26.5419 26.8801 26.6441 26.8082 26.7286 26.7179C26.9025 26.537 26.9997 26.2958 26.9997 26.0449C26.9997 25.794 26.9025 25.5528 26.7286 25.3719L19.0596 17.6259ZM2.88662 10.5009C2.89946 8.81563 3.41094 7.17187 4.35659 5.77685C5.30224 4.38183 6.63972 3.29801 8.20044 2.662C9.76115 2.02599 11.4752 1.86627 13.1266 2.20298C14.7779 2.53969 16.2926 3.35775 17.4797 4.55404C18.6668 5.75033 19.4732 7.27129 19.7972 8.92519C20.1212 10.5791 19.9483 12.2919 19.3002 13.8476C18.6522 15.4034 17.5581 16.7325 16.1559 17.6674C14.7536 18.6023 13.1059 19.1011 11.4206 19.1009C9.14916 19.0901 6.97482 18.1784 5.37484 16.566C3.77486 14.9537 2.87998 12.7724 2.88662 10.5009Z" />
+                </svg>
+            </button>
+        </form>
+        <div class="menu-burger__controls">
+            <button class="header-inner__controls-button_cart">
+                <svg class="header-inner__controls-button-icon-cart" viewBox="0 0 32 29" width="32" height="29">
+                    <path
+                        d="M1.18 2.36L4.58 2.36L9.41 19.82C9.55 20.33 10.02 20.69 10.55 20.69L25.41 20.69C25.88 20.69 26.3 20.41 26.49 19.98L31.9 7.56C32.06 7.19 32.02 6.78 31.8 6.44C31.58 6.11 31.21 5.91 30.81 5.91L14.4 5.91C13.75 5.91 13.22 6.44 13.22 7.09C13.22 7.74 13.75 8.27 14.4 8.27L29 8.27L24.62 18.32L11.44 18.32L6.61 0.87C6.47 0.35 6 0 5.46 0L1.18 0C0.53 0 0 0.53 0 1.18C0 1.83 0.53 2.36 1.18 2.36ZM9.43 29C10.91 29 12.11 27.8 12.11 26.32C12.11 24.84 10.91 23.64 9.43 23.64C7.95 23.64 6.75 24.84 6.75 26.32C6.75 27.8 7.95 29 9.43 29ZM26.2 29C26.26 29 26.34 29 26.39 29C27.11 28.94 27.76 28.63 28.23 28.07C28.7 27.54 28.92 26.85 28.88 26.12C28.78 24.67 27.5 23.54 26.02 23.64C24.54 23.74 23.44 25.04 23.53 26.5C23.63 27.9 24.8 29 26.2 29Z" />
+                </svg>
+            </button>
+            <button class="header-inner__controls-button_account">
+                <span class="header-inner__controls-button-text">My Account</span>
+                <span class="header-inner__controls-button-triangle"></span>
+            </button>
+        </div>
+    </div>
+
+
     <section class="introduction">
         <div class="introduction__item container">
             <h1 class="introduction__title">New Arrivals</h1>
@@ -75,77 +117,120 @@
 
 
     <main class="main container">
+
         <div class="user-cart">
-            <div class="user-cart__item ">
-                <span class="user-cart__item-cell-name">Product Details</span>
-                <span class="user-cart__item-cell-name">unite Price</span>
-                <span class="user-cart__item-cell-name">Quantity</span>
-                <span class="user-cart__item-cell-name">shipping</span>
-                <span class="user-cart__item-cell-name">Subtotal</span>
-                <span class="user-cart__item-cell-name">ACTION</span>
-            </div>
-            <div class="user-cart__item">
-                <figure class="user-cart__item-proposal">
-                    <img class="user-cart__item-proposal-photo" src="image/shopping-cart/rectangle_1.png" alt="photo" />
-                    <figcaption class="user-cart__item-proposal-text">
-                        <p class="user-cart__item-proposal-text_title">Mango People T-shirt</p>
-                        <p class="user-cart__item-proposal-text_color">Color: <span
-                                class="user-cart__item-proposal-text_pl-7">Red</span></p>
-                        <p class="user-cart__item-proposal-text_size">Size: <span
-                                class="user-cart__item-proposal-text_pl-7">Xll</span> </p>
-                    </figcaption>
-                </figure>
-                <span class="user-cart__item-cell-text">$150</span>
-                <input class="user-cart__item-cell-input" type="text" placeholder="2" />
-                <span class="user-cart__item-cell-text">free</span>
-                <span class="user-cart__item-cell-text">$300</span>
-                <svg class="user-cart__item-cell-icon" viewBox="0 0 512 512" width="16" height="16">
-                    <path
-                        d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" />
-                </svg>
-            </div>
 
-            <div class="user-cart__item">
-                <figure class="user-cart__item-proposal">
-                    <img class="user-cart__item-proposal-photo" src="image/shopping-cart/rectangle_2.png" alt="photo" />
-                    <figcaption class="user-cart__item-proposal-text">
-                        <p class="user-cart__item-proposal-text_title">Mango People T-shirt</p>
-                        <p class="user-cart__item-proposal-text_color">Color: <span
-                                class="user-cart__item-proposal-text_pl-7">Red</span></p>
-                        <p class="user-cart__item-proposal-text_size">Size: <span
-                                class="user-cart__item-proposal-text_pl-7">Xll</span> </p>
-                    </figcaption>
-                </figure>
-                <span class="user-cart__item-cell-text">$150</span>
-                <input class="user-cart__item-cell-input" type="text" placeholder="2" />
-                <span class="user-cart__item-cell-text">free</span>
-                <span class="user-cart__item-cell-text">$300</span>
-                <svg class="user-cart__item-cell-icon" viewBox="0 0 512 512" width="16" height="16">
-                    <path
-                        d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" />
-                </svg>
-            </div>
+            <span class="user-cart__cell-name user-cart__cell-name_pl-15">Product Details</span>
+            <span class="user-cart__cell-name">unite Price</span>
+            <span class="user-cart__cell-name">Quantity</span>
+            <span class="user-cart__cell-name">shipping</span>
+            <span class="user-cart__cell-name">Subtotal</span>
+            <span class="user-cart__cell-name">ACTION</span>
 
-            <div class="user-cart__item">
-                <figure class="user-cart__item-proposal">
-                    <img class="user-cart__item-proposal-photo" src="image/shopping-cart/rectangle_3.png" alt="photo" />
-                    <figcaption class="user-cart__item-proposal-text">
-                        <p class="user-cart__item-proposal-text_title">Mango People T-shirt</p>
-                        <p class="user-cart__item-proposal-text_color">Color: <span
-                                class="user-cart__item-proposal-text_pl-7">Red</span></p>
-                        <p class="user-cart__item-proposal-text_size">Size: <span
-                                class="user-cart__item-proposal-text_pl-7">Xll</span> </p>
-                    </figcaption>
-                </figure>
-                <span class="user-cart__item-cell-text">$150</span>
-                <input class="user-cart__item-cell-input" type="text" placeholder="2" />
-                <span class="user-cart__item-cell-text">free</span>
-                <span class="user-cart__item-cell-text">$300</span>
-                <svg class="user-cart__item-cell-icon" viewBox="0 0 512 512" width="16" height="16">
+            <figure class="user-cart__proposal">
+                <img class="user-cart__proposal-photo" src="image/shopping-cart/rectangle_1.png" alt="photo" />
+                <figcaption class="user-cart__proposal-text">
+                    <p class="user-cart__proposal-text_title">Mango People T-shirt</p>
+                    <p class="user-cart__proposal-text_color">Color: <span
+                            class="user-cart__proposal-text_pl-7">Red</span></p>
+                    <p class="user-cart__proposal-text_size">Size: <span
+                            class="user-cart__proposal-text_pl-7">Xll</span> </p>
+                </figcaption>
+            </figure>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">unite Price </span>
+                <span class="user-cart__cell-text">$150</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">Quantity</span>
+                <span class="user-cart__cell_quantity">2</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">shipping</span>
+                <span class="user-cart__cell-text">free</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">Subtotal</span>
+                <span class="user-cart__cell-text">$300</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">ACTION</span>
+                <svg class="user-cart__cell-icon" viewBox="0 0 512 512" width="16" height="16">
                     <path
                         d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" />
                 </svg>
-            </div>
+            </p>
+            <div class="user-cart__cell-border"></div>
+
+            <figure class="user-cart__proposal">
+                <img class="user-cart__proposal-photo" src="image/shopping-cart/rectangle_2.png" alt="photo" />
+                <figcaption class="user-cart__proposal-text">
+                    <p class="user-cart__proposal-text_title">Mango People T-shirt</p>
+                    <p class="user-cart__proposal-text_color">Color: <span
+                            class="user-cart__proposal-text_pl-7">Red</span></p>
+                    <p class="user-cart__proposal-text_size">Size: <span
+                            class="user-cart__proposal-text_pl-7">Xll</span> </p>
+                </figcaption>
+            </figure>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">unite Price </span>
+                <span class="user-cart__cell-text">$150</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">Quantity</span>
+                <span class="user-cart__cell_quantity">2</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">shipping</span>
+                <span class="user-cart__cell-text">free</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">Subtotal</span>
+                <span class="user-cart__cell-text">$300</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">ACTION</span>
+                <svg class="user-cart__cell-icon" viewBox="0 0 512 512" width="16" height="16">
+                    <path
+                        d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" />
+                </svg>
+            </p>
+            <div class="user-cart__cell-border"></div>
+
+            <figure class="user-cart__proposal">
+                <img class="user-cart__proposal-photo" src="image/shopping-cart/rectangle_3.png" alt="photo" />
+                <figcaption class="user-cart__proposal-text">
+                    <p class="user-cart__proposal-text_title">Mango People T-shirt</p>
+                    <p class="user-cart__proposal-text_color">Color: <span
+                            class="user-cart__proposal-text_pl-7">Red</span></p>
+                    <p class="user-cart__proposal-text_size">Size: <span
+                            class="user-cart__proposal-text_pl-7">Xll</span> </p>
+                </figcaption>
+            </figure>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">unite Price </span>
+                <span class="user-cart__cell-text">$150</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">Quantity</span>
+                <span class="user-cart__cell_quantity">2</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">shipping</span>
+                <span class="user-cart__cell-text">free</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">Subtotal</span>
+                <span class="user-cart__cell-text">$300</span>
+            </p>
+            <p class="user-cart__cell">
+                <span class="user-cart__cell-text_none">ACTION</span>
+                <svg class="user-cart__cell-icon" viewBox="0 0 512 512" width="16" height="16">
+                    <path
+                        d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z" />
+                </svg>
+            </p>
+            <div class="user-cart__cell-border"></div>
 
         </div>
 
@@ -154,7 +239,7 @@
             <button class="choice__button" type="submit">CONTINUE sHOPPING</button>
         </div>
 
-        <form class="execution" action="#">
+        <form class="execution container" action="#">
             <fieldset class="execution__item execution__item-shipping">
                 <legend class="execution__title">Shipping Adress</legend>
                 <select class="execution__country" name="country">
@@ -358,7 +443,7 @@
             </div>
         </div>
     </footer>
-
+    <script src="js/script.js"></script>
 </body>
 
 </html>
